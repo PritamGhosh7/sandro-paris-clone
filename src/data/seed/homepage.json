@@ -1,0 +1,64 @@
+{
+  "announcement": "Mid Season Sale — Up to 40% off Spring/Summer until 25/05 midnight",
+  "heroes": [
+    {
+      "audience": "Women",
+      "imageUrl": "https://eu.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwb935b61e/Homepage/2026/MSSMAI/HP_MSS_SLIDER-DESK_H.jpg?sw=1440&sh=758",
+      "headline": "MID SEASON SALE Up to 40% off*",
+      "subline": "*Discount applies to specific marked items",
+      "ctaLabel": "MEN",
+      "ctaHref": "https://eu.sandro-paris.com/en/midseason-sale-re/man/"
+    },
+    {
+      "audience": "Men",
+      "imageUrl": "https://eu.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwb935b61e/Homepage/2026/MSSMAI/HP_MSS_SLIDER-DESK_H.jpg?sw=1440&sh=758",
+      "headline": "MID SEASON SALE Up to 40% off*",
+      "subline": "*Discount applies to specific marked items",
+      "ctaLabel": "MEN",
+      "ctaHref": "https://eu.sandro-paris.com/en/midseason-sale-re/man/"
+    },
+    {
+      "audience": "Men",
+      "imageUrl": "https://eu.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwb935b61e/Homepage/2026/MSSMAI/HP_MSS_SLIDER-DESK_H.jpg?sw=1440&sh=758",
+      "headline": "MID SEASON SALE Up to 40% off*",
+      "subline": "*Discount applies to specific marked items",
+      "ctaLabel": "MEN",
+      "ctaHref": "https://eu.sandro-paris.com/en/midseason-sale-re/man/"
+    },
+    {
+      "audience": "Men",
+      "imageUrl": "https://eu.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwb935b61e/Homepage/2026/MSSMAI/HP_MSS_SLIDER-DESK_H.jpg?sw=1440&sh=758",
+      "headline": "MID SEASON SALE Up to 40% off*",
+      "subline": "*Discount applies to specific marked items",
+      "ctaLabel": "MEN",
+      "ctaHref": "https://eu.sandro-paris.com/en/midseason-sale-re/man/"
+    },
+    {
+      "audience": "Men",
+      "imageUrl": "https://eu.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwa813865e/Homepage/2026/MSSMAI/HP_MSS_BLOC-DESK-F.jpg?sw=960&sh=1009",
+      "headline": "SHOES",
+      "subline": "",
+      "ctaLabel": "WOMEN",
+      "ctaHref": "https://eu.sandro-paris.com/en/midseason-sale-re/woman/accessories/shoes/"
+    },
+    {
+      "audience": "Men",
+      "imageUrl": "https://eu.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwa813865e/Homepage/2026/MSSMAI/HP_MSS_BLOC-DESK-F.jpg?sw=960&sh=1009",
+      "headline": "SHOES",
+      "subline": "",
+      "ctaLabel": "WOMEN",
+      "ctaHref": "https://eu.sandro-paris.com/en/midseason-sale-re/woman/accessories/shoes/"
+    },
+    {
+      "audience": "Men",
+      "imageUrl": "https://eu.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwd022fc54/Homepage/2026/MSSMAI/HP_MSS_BLOC-DESK-H.jpg?sw=960&sh=1009",
+      "headline": "BAGS",
+      "subline": "",
+      "ctaLabel": "MEN",
+      "ctaHref": "https://eu.sandro-paris.com/en/midseason-sale-re/man/accessories/bags/"
+    }
+  ],
+  "categoryCards": [],
+  "featuredBlocks": [],
+  "stores": []
+}
