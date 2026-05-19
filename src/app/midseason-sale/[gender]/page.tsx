@@ -16,7 +16,7 @@ export default async function MidseasonSalePage({
   if (!VALID.includes(gender as Gender)) notFound();
   const g = gender as Gender;
 
-  const products = getSaleProducts(g);
+  const products = await getSaleProducts(g);
   const title = `Mid Season Sale — ${g === "women" ? "Women" : "Men"}`;
 
   return (

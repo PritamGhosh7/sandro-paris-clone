@@ -18,7 +18,7 @@ export default async function CategoryListingPage({
   const cat = categories.find((c) => c.gender === gender && c.slug === category);
   if (!cat) notFound();
 
-  const products = getProductsByCategory(category);
+  const products = await getProductsByCategory(category);
   const genderLabel = gender === "women" ? "Women" : "Men";
 
   return (

@@ -1,11 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
-import {
-  getProductBySku,
-  hydratePdp,
-  products as allProducts,
-} from "@/data/products";
+import { getAllProducts, getProductBySku } from "@/data/products";
 import { PdpGallery } from "@/components/pdp/pdp-gallery";
 import { PdpInfoPanel } from "@/components/pdp/pdp-info-panel";
 import { PdpAccordions } from "@/components/pdp/pdp-accordions";
@@ -18,19 +14,16 @@ export default async function ProductDetailPage({
   params: Promise<{ slug: string; sku: string }>;
 }) {
   const { slug, sku } = await params;
-  const raw = getProductBySku(sku);
-  if (!raw || raw.slug !== slug) notFound();
-  const product = hydratePdp(raw);
+  const product = await getProductBySku(sku);
+  if (!product || product.slug !== slug) notFound();
 
-  const recommendations = allProducts
+  const all = await getAllProducts();
+  const recommendations = all
     .filter(
       (p) => p.sku !== product.sku && p.categorySlug === product.categorySlug,
     )
     .slice(0, 4);
-
-  const recently = allProducts
-    .filter((p) => p.sku !== product.sku)
-    .slice(0, 4);
+  const recently = all.filter((p) => p.sku !== product.sku).slice(0, 4);
 
   return (
     <>
